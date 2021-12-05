@@ -1,7 +1,4 @@
 ﻿
-global using KretaDx.BLL.Interface;
-using Microsoft.AspNetCore.Mvc;
-
 namespace KretaDx.Controllers;
 
     [ApiController]

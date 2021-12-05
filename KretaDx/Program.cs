@@ -1,8 +1,10 @@
 
 
-using KretaDx.BLL.Service;
-using KretaDx.DAL.Repository.Interfaces;
-using KretaDx.DAL.Repository.Services;
+global using KretaDx.BLL.Service;
+global using KretaDx.DAL.Repository.Interfaces;
+global using KretaDx.DAL.Repository.Services;
+global using Microsoft.AspNetCore.Mvc;
+global using KretaDx.BLL.Interface;
 
 var builder = WebApplication.CreateBuilder(args);
 
